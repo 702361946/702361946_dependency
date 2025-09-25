@@ -38,6 +38,7 @@ include-package-data = true
 "dependency.modules._tkinter" = "src/dependency/modules/_tkinter"
 
 [tool.setuptools.package-data]
+"dependency._foundation" = ["*.md"]
 "dependency.modules._pygame" = ["*.md"]
 "dependency.modules._pyside6" = ["*.md"]
 "dependency.modules._SQLite3" = ["*.md"]
